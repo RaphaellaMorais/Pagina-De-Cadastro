@@ -1,0 +1,35 @@
+.h1{
+  text-align: center;
+}
+
+.formulario {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.input-padrao{
+  border: 2px ;
+  border-style: solid;
+}
+
+.checkbox {
+	margin: 20px 0;
+  border: 0ch;
+}
+
+
+.salvar {
+  background: rgb(62, 173, 62);
+}
+
+.limpar {
+  background: rgb(219, 68, 68);
+
+}
+  
+body {
+  margin: 0;
+}

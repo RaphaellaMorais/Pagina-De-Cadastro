@@ -2,31 +2,45 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <form>
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" class="input-padrao" required>
+    <div class="formulario">
+        <form>
+            <h1 class="h1">Página de Cadastro</h1>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-        <label for="datanascimento">Data de Nascimento</label>
-        <input type="tel" id="datanascimento" class="input-padrao" required placeholder="XX/XX/XXXX">
+            <label for="datanascimento">Data de Nascimento</label>
+            <input type="date" id="datanascimento" class="input" >
 
-        <fieldset>
-            <legend>Residência:</legend>
-            <select>
-                <option>Casa</option>
-                <option>Predio</option>
-            </select>
-        </fieldset>
+            <label for="endereco">Seu Endereço</label>
+            <input type="text" id="endereco" class="input-padrao" >
+        
+            <fieldset class="checkbox">
+                <legend>Residência:</legend>
+                <div>
+                    <input type="checkbox" id="casa" name="casa">
+                    <label for="casa">Casa</label>
+                </div>
+              
+                <div>
+                    <input type="checkbox" id="predio" name="predio">
+                    <label for="predio">Predio</label>
+                </div>
+                  
+            </fieldset>
 
-        <input type="submit" value="Salvar" class="enviar"> 
-        <input type="submit" value="Limpar" class="enviar">
-    </form>
+            <input type="submit" value="Salvar" class="salvar"> 
+            <input type="submit" value="Limpar" class="limpar">
+        </form>
+    </div>
 </body>
 </html>
