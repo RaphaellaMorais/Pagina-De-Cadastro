@@ -21,7 +21,7 @@ Passo 4
 Por conta das cores da empresa, foi pedido que os input types de textos (input[type=text]) criados tivessem uma borda de 2px solid azul e o background da página cinza (#f3f3f3).
 
 
-#Pagina-De-Cadastro
+# Pagina-De-Cadastro
 
 # Passo 1 - Doctype:
 
